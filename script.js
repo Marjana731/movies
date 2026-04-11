@@ -19,7 +19,7 @@ fetch(url)
         moviesConteiner.appendChild(card)
     });
 });
-const btn = document.querySelector('a')
+const btn = document.querySelector('.order-btn')
 btn.addEventListener('click', ()=>{
     gtag('event', 'click_start_btn');
     concole.log('Дані відправлено!');
